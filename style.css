@@ -1,0 +1,418 @@
+body{
+    background-color: #FFF1CC;
+    width: 100vw;
+}
+
+#parent-headeer{
+    text-align: center;
+}
+
+#sun {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+
+    
+}
+
+.dot-font{
+    font-family: 'DotGothic16', sans-serif;
+
+}
+
+#sub-title{
+    color: #fff;
+    font-size: 2.6vw;
+    margin-bottom: 0;
+    text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
+                -2px 2px 0 #000000, 2px -2px 0 #000000,
+                0px 2px 0 #000000,  0 -2px 0 #000000,
+                -2px 0 0 #000000, 2px 0 0 #000000;
+}
+
+#title{
+    width: 55vw;
+    margin-bottom: 5%;
+
+}
+
+#cursor{
+    width: 4vw;
+    margin-top: 0;
+    margin-left: 50%;
+}
+
+#transitionButton{
+    width: 20vw;
+}
+
+.header{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#order-word{
+    width: 15vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #fff;
+    transition: all .2s;
+    text-shadow:2px 2px 0 #E41B00, -2px -2px 0 #E41B00,
+                -2px 2px 0 #E41B00, 2px -2px 0 #E41B00,
+                0px 2px 0 #E41B00,  0-2px 0 #E41B00,
+                -2px 0 0 #E41B00, 2px 0 0 #E41B00;
+
+}
+#order-word:hover{
+    font-size: 1.6vw;
+}
+
+#why-tmt{
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+.rmt-title{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 5.2vw;
+    text-align: center;
+    width: 100%;
+}
+
+#why-rmt-content{
+    font-size: 2.8vw;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
+                -2px 2px 0 #000000, 2px -2px 0 #000000,
+                0px 2px 0 #000000,  0 -2px 0 #000000,
+                -2px 0 0 #000000, 2px 0 0 #000000;
+    
+}
+
+
+.parent-icon{
+
+    width: 140%;
+}
+
+#king-jisan{
+    width: 140%;
+
+    margin-left: -40%;    
+}
+
+#kinoko{
+    width: 140%;
+    margin-top: 80%;
+}
+
+#japanese-blue{
+    font-size: 7.2vw;
+    color: #2D94FF;
+    -webkit-text-stroke: 7px #000000;
+}
+
+
+#point{
+    height: 100%;
+}
+
+.point-box{
+    position: relative;
+    width: 100%;
+}
+
+.point-iamge{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.point-title{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kaisei Tokumin', serif;
+    
+    color: #15A6D0;
+    -webkit-text-stroke: 1px #EFF192;
+}
+
+
+
+#point-safe{
+    font-size: 5.6vw;
+}
+
+#point-speedy{
+    font-size: 5.2vw;
+}
+
+#point-compensation{
+    font-size: 4.4vw;
+}
+
+.point-content{
+    height: 100%;
+}
+
+.point-card-white{
+    background-color: #ffffff;
+    padding: auto;
+    margin-top: -40%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.point-card-red{
+    background-color: #F26D51;
+
+    margin: auto;
+    border-radius: 30px;
+    width: 90%;
+    height: 100%;
+}
+
+.point-exam{
+    width: 90%;
+    height: 100%;
+    padding-top: 40%;
+
+    
+
+    margin: 0 auto 0 auto;
+    color: #ffffff;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2.4vw;
+}
+
+#marusen-parent{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+#marusen{
+    width: 70%;
+    text-align: center;
+}
+
+.custmer-voice{
+    width: 100%;
+}
+
+#transactions-title{
+    text-align: right;
+}
+
+#rocket{
+    width: 40%;
+
+}
+
+.transactions-content{
+    width: 150%;
+    position: relative;
+}
+
+
+.transactions-content-image{
+    width: 100%;
+
+}
+
+
+.transactions-content-title{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    font-size: 2.6vw;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.transactions-arrow-content{
+    width: 100%;
+    height: 100%;
+}
+
+.transactions-arrow{
+    width: 50%;
+    margin-right: 0;
+    
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc {
+    width: 100%;
+    display: block !important;
+}
+.sp {
+    width: 60%;
+    margin: 0 auto;
+    display: none !important;
+}
+ 
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 980px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
+#transactions-message{
+    text-align: center;
+    font-size: 3.0vw;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
+                -2px 2px 0 #000000, 2px -2px 0 #000000,
+                0px 2px 0 #000000,  0 -2px 0 #000000,
+                -2px 0 0 #000000, 2px 0 0 #000000;
+    
+}
+
+#sunny{
+    width: 7%;
+    vertical-align: middle;
+}
+
+#second-button{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.second-cursor-content{
+
+
+}
+
+
+#second-cursor{
+    text-align: right;
+    margin-left: 60%;
+    width: 4vw;
+    margin-bottom: 10%;
+}
+
+
+.hasen-cotainer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#hasen{
+    text-align: center;
+
+}
+
+.phone{
+    width: 60%;
+}
+
+#inquiries{
+    color: #FFB800;
+    text-shadow:4px 4px 0 #000000, -4px -4px 0 #000000,
+        -4px 4px 0 #000000, 4px -4px 0 #000000,
+        0px 4px 0 #000000,  0 -4px 0 #000000,
+        -4px 0 0 #000000, 4px 0 0 #000000;
+}
+
+#support-content{
+    text-align: center;
+    font-size: 2.8vw;
+    font-family: 'DotGothic16', sans-serif;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
+                -2px 2px 0 #000000, 2px -2px 0 #000000,
+                0px 2px 0 #000000,  0 -2px 0 #000000,
+                -2px 0 0 #000000, 2px 0 0 #000000;
+    
+}
+
+#support-info{
+    text-align: center;
+    font-size: 2.6vw;
+    font-family: 'DotGothic16', sans-serif;
+    color: #FF440A;
+    text-align: center;
+    width: 100%;
+}
+
+#footer{
+    height: 20vh;
+    background-color: #595959;
+    position: relative;
+}
+
+#footer-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 10vh;
+
+}
+
+.footer-ul{
+    text-align: center;
+}
+
+.footer-li{
+    display: inline-block;
+    padding: 0 1%;
+}
+
+.footer-link{
+    color: #fff;
+    font-size: 2.0vw;
+    text-decoration: underline;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+
+address{
+    text-align: center;
+    font-size: 1.4vw;
+    color: #fff;
+
+}
