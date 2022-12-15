@@ -248,7 +248,22 @@ body{
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
+
+    .point-exam{
+        width: 90%;
+        height: 100%;
+        padding-top: 20%;
+        margin: 0 auto 0 auto;
+        color: #ffffff;
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 1.6vw;
+        transform: scale(0.7);
+    }
+    
+}
+
+@media screen and (min-width: 421px) and (max-width: 450px) {
 
     .point-exam{
         width: 90%;
@@ -257,7 +272,23 @@ body{
         margin: 0 auto 0 auto;
         color: #ffffff;
         font-family: 'DotGothic16', sans-serif;
-        font-size: 0.1vw;
+        font-size: 2.3vw;
+        transform: scale(0.8);
+    }
+    
+}
+
+@media screen and (min-width: 451px) and (max-width: 481px) {
+
+    .point-exam{
+        width: 90%;
+        height: 100%;
+        padding-top: 40%;
+        margin: 0 auto 0 auto;
+        color: #ffffff;
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 2.3vw;
+        transform: scale(1);
     }
     
 }
