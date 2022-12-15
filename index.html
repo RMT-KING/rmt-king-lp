@@ -14,18 +14,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Kaisei+Tokumin:wght@700&display=swap" rel="stylesheet">
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-        
-        <!-- [if lt IE 9] -->
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+
+
         <!-- [endif] -->
 
 
         
-        <link rel="stylesheet" href="./style.css">
-        <script src="./main.js"></script>
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/animate.min.css">
+        <script src="./js/main.js"></script>
+        <script src="./js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 
     </head>
     <body>
@@ -41,7 +44,7 @@
             <!-- <div class="container"> -->
                 <div class="row">
 
-                    <div class="col s12" id="parent-headeer">
+                    <div class="col s12 wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s" id="parent-headeer">
                         <div class="header">
 
                             <img src="./images/sun5.png" alt="" srcset="" id="sun">
@@ -60,37 +63,42 @@
                                 </div>
                                 <br>
                                 
-                                <img src="./images/cursor.png" alt="" srcset="" id="cursor">                                
+                                <img src="./images/cursor.png" alt="" srcset="" class="animate__animated animate__fadeIn"  data-wow-duration="1s" data-wow-delay="1s" data-wow-iteration="8" id="cursor">                                
                             </div>
 
                         </div>
 
                     </div>
 
-                    <div class="col s2" class="parent-icon">
-                        <img src="./images/kinoko1.png" alt="" srcset=""   id="kinoko">
-                    </div>
+                    <div id="why-tmt-parent" class="wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
 
-                    <div class="col s8" id="why-tmt">
-                        <h3 class="rmt-title">RMTってなに？</h3>
-                        <p class="dot-font" id="why-rmt-content">
-                            RMT（リアルマネートレード）とは<br>
-                            オンラインゲーム内で通貨やアイテムを<br>
-                            現実世界で現金によって取引することです！<br>
-                            通貨や強い武器、レアアイテムが欲しい！<br>
-                            だけどこつこつゲームをしている時間は無い...<br>
-                            そんな方などがRMTを利用されています
-                        </p>
-                    </div>
+                        <div class="col s2 parent-icon">
+                            <img src="./images/kinoko1.png" alt="" srcset=""   id="kinoko">
+                        </div>
+    
+                        <div class="col s8" id="why-tmt">
+                            <h3 class="rmt-title">RMTってなに？</h3>
+                            <p class="dot-font" id="why-rmt-content">
+                                RMT（リアルマネートレード）とは<br>
+                                オンラインゲーム内で通貨やアイテムを<br>
+                                現実世界で現金によって取引することです！<br>
+                                通貨や強い武器、レアアイテムが欲しい！<br>
+                                だけどこつこつゲームをしている時間は無い...<br>
+                                そんな方などがRMTを利用されています
+                            </p>
+                        </div>
+    
+                        <div class="col s2 parent-icon">
+                            <img src="./images/king-jisan.png"  alt="" id="king-jisan">
+                        </div>
 
-                    <div class="col s2" class="parent-icon">
-                        <img src="./images/king-jisan.png"  alt="" id="king-jisan">
                     </div>
+                    
 
 
                     
 
-                    <div class="col s12 green-back">
+                    <div class="col s12 green-back wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
 
                         <div class="col s12" id="safe-title">
                             <h3 class="rmt-title">RMT KINGは<br>
@@ -98,7 +106,7 @@
                         </div>
     
                         <div class="col s12" id="point">
-    
+
                             <div class="col s4 point-content">
                                 <div class="point-box">
                                     <img src="./images/hukidashi.png" alt="" class="point-iamge">
@@ -143,6 +151,7 @@
                                     </div>
                                 </div>  
                             </div>
+
     
                         </div>
 
@@ -150,13 +159,13 @@
 
 
 
-                    <div class="col s12" id="marusen-parent">
+                    <div class="col s12 wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s"" id="marusen-parent">
                         <img id="marusen" src="./images/maru-hasen.png" alt="">
                     </div>
 
 
 
-                    <div class="col s12" id="customer-content">
+                    <div class="col s12 wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s"" id="customer-content">
 
 
                         <h3 class="rmt-title">お客様からの声</h3>
@@ -165,7 +174,7 @@
                     </div>
 
 
-                    <div class="green-back col s12">
+                    <div class="green-back col s12 wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
 
                         <div class="col s12">
 
@@ -262,15 +271,15 @@
 
 
 
-                    <div class="col s12 hasen-cotainer">
+                    <div class="col s12 hasen-cotainer wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
                         <img src="./images/hasen4.png" class="hasen" alt="">
                     </div>
 
 
-                    <div>
+                    <div class="wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
 
-                        <div class="col s12">
-                            <h3 class="rmt-title">お問い合わせ</h3>
+                        <div class="col s12 wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
+                            <h3 class="rmt-title" id="support-title">お問い合わせ</h3>
 
                             <p id="support-content">
                                 RMT KINGではサポートも充実しておりますので<br>
@@ -278,17 +287,17 @@
                             </p>    
                         </div>
 
-                        <div class="col s4 right-align">
+                        <div class="col s3 right-align wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
                             <img src="./images/phone.png" class="phone" alt="">
                         </div>
 
-                        <div class="col s4" >
+                        <div class="col s6 wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
                             <p id="support-info">電話サポート</br>
                             TEL:052-265-7029</br>
                             サポート時間9:00～23:00</p>
                         </div>
 
-                        <div class="col s4 left-align">
+                        <div class="col s3 left-align wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
                             <img src="./images/phone.png" class="phone" alt="">
                         </div>
                     
@@ -296,7 +305,7 @@
                     </div>
 
 
-                    <div class="col s12 hasen-cotainer">
+                    <div class="col s12 hasen-cotainer wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
                         <img src="./images/hasen4.png" class="hasen" alt="">
                     </div>
 
@@ -325,6 +334,15 @@
             </div>
 
         </footer>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        
+        <!-- [if lt IE 9] -->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 
     </body>
 </html>
