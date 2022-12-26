@@ -243,22 +243,59 @@ body{
     border-radius: 2.5vw;
     width: 90%;
     height: 98%;
+
+    word-break: break-all;
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+
+    .point-exam{
+        width: 97%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+        color: #ffffff;
+        font-family: 'DotGothic16', sans-serif;
+        transform: scale(0.7);
+        font-size: 1.7vw;
+
+    }
+    
 }
 
 
 
-
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 381px) and (max-width: 400px) {
 
     .point-exam{
-        width: 90%;
+        width: 97%;
         height: 100%;
         padding-top: 20%;
         margin: 0 auto 0 auto;
         color: #ffffff;
         font-family: 'DotGothic16', sans-serif;
-        font-size: 1.6vw;
-        transform: scale(0.7);
+        transform: scale(0.8);
+        font-size: 2.0vw;
+
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 401px) and (max-width: 420px) {
+
+    .point-exam{
+        width: 95%;
+        height: 100%;
+        padding-top: 30%;
+        margin: 0 auto 0 auto;
+        color: #ffffff;
+        font-family: 'DotGothic16', sans-serif;
+        transform: scale(0.9);
+        font-size: 2.3vw;
+
     }
     
 }
@@ -266,14 +303,13 @@ body{
 @media screen and (min-width: 421px) and (max-width: 450px) {
 
     .point-exam{
-        width: 90%;
+        width: 95%;
         height: 100%;
-        padding-top: 40%;
+        padding-top: 30%;
         margin: 0 auto 0 auto;
         color: #ffffff;
         font-family: 'DotGothic16', sans-serif;
         font-size: 2.3vw;
-        transform: scale(0.8);
     }
     
 }
