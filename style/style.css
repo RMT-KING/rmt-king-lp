@@ -535,6 +535,13 @@ body{
     width: 100%;
 }
 
+#support-info a{
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+    color: #FF440A;
+    text-decoration: none;
+}
+
 #footer{
     height: 20vh;
     background-color: #595959;
