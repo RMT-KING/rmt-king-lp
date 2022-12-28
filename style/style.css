@@ -248,17 +248,33 @@ body{
 
 }
 
+@media screen and (max-width: 349px) {
+
+    .point-exam{
+        width: 100%;
+        height: 100%;
+        padding-top: 30%;
+        margin: 0 auto 0 auto;
+        color: #ffffff;
+        font-family: 'DotGothic16', sans-serif;
+        transform: scale(0.9);
+        font-size: 2.5vw;
+
+    }
+    
+}
+
 @media screen and (min-width: 350px) and (max-width: 380px) {
 
     .point-exam{
         width: 97%;
         height: 100%;
+        padding-top: 30%;
         margin: 0 auto 0 auto;
         color: #ffffff;
         font-family: 'DotGothic16', sans-serif;
-        transform: scale(0.7);
-        font-size: 1.7vw;
-
+        transform: scale(0.9);
+        font-size: 2.3vw;
     }
     
 }
@@ -275,7 +291,7 @@ body{
         color: #ffffff;
         font-family: 'DotGothic16', sans-serif;
         transform: scale(0.8);
-        font-size: 2.0vw;
+        font-size: 2.5vw;
 
     }
     
